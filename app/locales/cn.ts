@@ -1,6 +1,6 @@
 import { SubmitKey } from "../store/config";
 
-let unauthorizedMessage = `前往公众号：**[ai_ideas](http://www.baidu.com "ai_ideas")** 回复 **密码** 免费获取密码，然后点击左下角[设置](/#/settings)按钮输入密码后解锁免费使用。
+let unauthorizedMessage = `前往公众号：**[ai_ideas](https://mp.weixin.qq.com/s?__biz=MzUyNTA4MDg2Mw==&mid=2247483798&idx=1&sn=49b172903744f8d742e4573d42762d0e&chksm=fa22c1e6cd5548f0135da0aeb0a3919b70b7fe81dfa546844644ee204d2c3b69a107b0bb5507#rd "ai_ideas")** 回复 **密码** 免费获取密码，然后点击左下角[设置](/#/settings)按钮输入密码后解锁免费使用。
 
 **提问**： 用的是 GPT-4吗？
 **回答**：是3.5，日常用 3.5 足够
