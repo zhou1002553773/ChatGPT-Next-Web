@@ -7,7 +7,7 @@ let unauthorizedMessage = `前往公众号：**[ai_ideas](https://mp.weixin.qq.c
 
 如果觉得好用，也可以适当打赏，帮助我们可持续发展
 
-![p9cErDI.jpg](https://s1.ax1x.com/2023/05/13/p9cErDI.jpg)`;
+![p9cErDI.jpg](https://s1.ax1x.com/2023/05/14/p9gZPbR.jpg)`;
 
 const cn = {
   WIP: "该功能仍在开发中……",
