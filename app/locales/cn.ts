@@ -1,10 +1,20 @@
 import { SubmitKey } from "../store/config";
 
+let unauthorizedMessage = `前往公众号：**[ai_ideas](https://mp.weixin.qq.com/s?__biz=MzUyNTA4MDg2Mw==&mid=2247483802&idx=1&sn=198c98c49d413617c6008c9aefe18d75&chksm=fa22c1eacd5548fcc0b9ca8f29b83d4139e339b4171592699eda8adbd31847255a1abd0fa187#rd "ai_ideas")** 回复 **密码** 免费获取密码，然后点击左下角[设置](/#/settings)按钮输入密码后解锁免费使用。
+
+**提问**： 用的是 GPT-4吗？
+**回答**：是3.5，日常用 3.5 足够
+
+如果觉得好用，也可以适当打赏，帮助我们可持续发展
+
+![p9cErDI.jpg](https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/006iGseIly1he2wkgl9g2j30w00w0acp.jpg)`;
+
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。",
+      // "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。",
+      unauthorizedMessage,
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,

@@ -15,7 +15,6 @@ import MinIcon from "../icons/min.svg";
 import ResetIcon from "../icons/reload.svg";
 import BreakIcon from "../icons/break.svg";
 import SettingsIcon from "../icons/chat-settings.svg";
-
 import LightIcon from "../icons/light.svg";
 import DarkIcon from "../icons/dark.svg";
 import AutoIcon from "../icons/auto.svg";
@@ -655,6 +654,11 @@ export function Chat() {
       chatStore.updateCurrentSession((session) => (session.topic = newTopic!));
     }
   };
+
+  // const contractMe = () => {
+  //   console.log("contractMe")
+  //   location.href = 'https://www.javastarboy.cn/';
+  // };
 
   const location = useLocation();
   const isChat = location.pathname === Path.Chat;
